@@ -8,7 +8,11 @@
 #include <string.h>
 #include <math.h>
 
+volatile uint16_t ui32Loop;
+unsigned long Led;
 #include "TM4C1294NCPDT.h"
+#include "GPIO.h"
+
 
 
 
